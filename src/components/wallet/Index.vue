@@ -243,14 +243,14 @@ import StatusBadge from '../../components/common/StatusBadge.vue';
 const toast = useToast();
 
 // États
-const balance = ref(45500);
-const totalSpent = ref(125000);
-const totalSmsSent = ref(12450);
+const balance = ref(0);
+const totalSpent = ref(0);
+const totalSmsSent = ref(0);
 const userTier = ref('Premium');
 const smsPrice = ref(5);
 const transactions = ref([]);
 const currentPage = ref(1);
-const totalPages = ref(1);
+const totalPages = ref(0);
 const totalItems = ref(0);
 const perPage = ref(10);
 const activeTab = ref('transactions');

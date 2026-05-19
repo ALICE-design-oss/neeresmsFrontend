@@ -1,0 +1,40 @@
+{
+  "name": "neeresmsfrontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vee-validate/rules": "^4.15.1",
+    "@vee-validate/yup": "^4.15.1",
+    "@vueuse/core": "^14.2.1",
+    "@vueuse/head": "^2.0.0",
+    "apexcharts": "^5.10.4",
+    "axios": "^1.13.6",
+    "date-fns": "^4.1.0",
+    "papaparse": "^5.5.3",
+    "pinia": "^3.0.4",
+    "vee-validate": "^4.15.1",
+    "vue": "^3.5.30",
+    "vue-i18n": "^11.3.0",
+    "vue-router": "^5.0.4",
+    "vue-toastification": "^2.0.0-rc.5",
+    "vue3-apexcharts": "^1.11.1",
+    "xlsx": "^0.18.5",
+    "yup": "^1.7.1"
+  },
+  "devDependencies": {
+    "@headlessui/vue": "^1.7.23",
+    "@heroicons/vue": "^2.2.0",
+    "@tailwindcss/forms": "^0.5.7",
+    "@vitejs/plugin-vue": "^6.0.5",
+    "autoprefixer": "^10.4.18",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "vite": "^8.0.1"
+  }
+}
